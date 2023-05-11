@@ -1,4 +1,4 @@
-### RPM lcg SCRAMV2 V2_2_9_pre16
+### RPM lcg SCRAMV2 V2_2_9_pre17
 ## NOCOMPILER
 ## NO_VERSION_SUFFIX
 

@@ -1,7 +1,7 @@
 ################################################################
 ####For any change, always update version number to latest date#
 ################################################################
-### RPM cms cmssw-wm-tools 211210
+### RPM cms cmssw-wm-tools 230511
 ## NOCOMPILER
 ## NO_VERSION_SUFFIX
 
