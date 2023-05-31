@@ -1,7 +1,7 @@
 ### RPM external bootstrap-driver 40.0
 ## NOCOMPILER
 Requires: rpm
-BuildRequires: cms-common fakesystem
+BuildRequires: cms-common
 
 #danger! cms-common version is now hardwired below (and in bootstrap.file)
 
@@ -62,7 +62,7 @@ slc*)
   ;;
 esac
 
-defaultPkgs="cms+cms-common+1.0 cms+fakesystem+1.0"
+defaultPkgs="cms+cms-common+1.0"
 
 mkdir -p %{i}/etc/profile.d
 (echo "rpm_version=$RPM_VERSION"; \

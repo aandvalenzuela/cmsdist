@@ -12,7 +12,6 @@ Requires: clhep
 Requires: db6
 Requires: dcap
 Requires: expat
-Requires: fakesystem
 Requires: fftw3
 Requires: fwlitedata
 Requires: gcc

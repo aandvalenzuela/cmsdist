@@ -26,7 +26,6 @@ Requires: db6
 Requires: davix
 Requires: evtgen
 Requires: expat
-Requires: fakesystem
 Requires: flatbuffers
 Requires: fmt
 Requires: gbl
