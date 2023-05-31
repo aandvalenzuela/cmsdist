@@ -1,4 +1,4 @@
-### RPM cms fakesystem 1.0
+### RPM cms fakesystem 2.0
 ## REVISION 1014
 ## NOCOMPILER
 ## NO_VERSION_SUFFIX

@@ -1,4 +1,4 @@
-### RPM external gcc-fixincludes 1.0
+### RPM external gcc-fixincludes 2.0
 ## NO_VERSION_SUFFIX
 ## REVISION 1001
 ## NOCOMPILER
