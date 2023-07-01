@@ -6,7 +6,7 @@ Requires: python3
 BuildRequires: py3-setuptools
 
 %prep
-%setup -n %{n}-v%{realversion}
+%setup -n %{n}-%{realversion}
 %patch0 -p1
 
 %build
