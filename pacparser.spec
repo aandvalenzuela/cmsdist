@@ -1,6 +1,6 @@
-### RPM external pacparser 1.4.0
+### RPM external pacparser 1.4.2
 ## INITENV +PATH PYTHON3PATH %{i}/${PYTHON3_LIB_SITE_PACKAGES}
-Source: https://github.com/manugarg/pacparser/archive/refs/tags/v1.4.0.tar.gz
+Source: https://github.com/manugarg/pacparser/archive/refs/tags/v%{realversion}.tar.gz
 Patch0: pacparser-python-fix
 Requires: python3
 BuildRequires: py3-setuptools
