@@ -1,4 +1,4 @@
-### RPM cms crab 2.0
+### RPM cms crab 3.0
 ## NOCOMPILER
 ## NO_AUTO_DEPENDENCY
 Requires: crab-prod crab-pre crab-dev
