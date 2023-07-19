@@ -13,8 +13,8 @@ echo "  exit 1" >> lhapdf_makeLinks.file
 echo "fi" >> lhapdf_makeLinks.file
 echo >> lhapdf_makeLinks.file
 #
-echo "export cvmfspath=/cvmfs/cms.cern.ch/lhapdf/pdfsets/%1" >> lhapdf_makeLinks.file
-export ss=`ls /cvmfs/cms.cern.ch/lhapdf/pdfsets/$1`
+echo "export cvmfspath=/tmp/pdfsets/%1" >> lhapdf_makeLinks.file
+export ss=`ls /tmp/pdfsets/$1`
 echo export pdflist=@${ss}@ >> lhapdf_makeLinks.file
 echo "for pdf in %{pdflist} ; do" >> lhapdf_makeLinks.file 
 echo "  if [ ! -d @%{pdf}@ ] ; then" >> lhapdf_makeLinks.file
@@ -29,4 +29,4 @@ sed "s/@/\"/g" < lhapdf_makeLinks.file_1 > lhapdf_makeLinks.file_2
 mv lhapdf_makeLinks.file_2 lhapdf_makeLinks.file
 rm -f lhapdf_makeLinks.file_*
 
-cp -f /cvmfs/cms.cern.ch/lhapdf/pdfsets/$1/pdfsets.index lhapdf_pdfsetsindex.file
+cp -f /tmp/pdfsets/$1/pdfsets.index lhapdf_pdfsetsindex.file
